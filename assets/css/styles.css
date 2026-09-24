@@ -1141,7 +1141,7 @@ button:focus {
 }
 
 .dark-vertion .mh-home .img-border {
-  border: 20px solid rgba(255, 255, 255, 0.9);
+  border: 15px solid rgba(255, 255, 255, 0.9);
 }
 
 .dark-vertion .candidatos .parcial .progressBar {
@@ -1528,9 +1528,9 @@ li .fa {
 
 .mh-home .img-border {
   display: flex;
-  height: 345px;
-  width: 345px;
-  border: 15px solid rgba(0, 0, 0, 0.07);
+  height: 350px;
+  width: 350px;
+  border: 30px solid rgba(0, 0, 0, 0.07);
   margin: 0 auto;
   border-radius: 50%;
 }
@@ -3763,5 +3763,66 @@ BLOG Pagination
 .mh-about-tag-2 ul {
   margin-bottom: 30px;
   margin-top: 20px;
+}
+
+/* =========================================
+   ABOUT IMAGE
+========================================= */
+
+.mh-about-img {
+    text-align: center;
+}
+
+.mh-about-img .about-profile-img {
+    width: 75%;
+    max-width: 400px;
+    height: auto;
+    display: inline-block;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+
+
+/* =========================================
+   ANDROID / MOBILE
+========================================= */
+
+/* @media (max-width: 767px) {
+
+    .mh-about-img {
+        text-align: center;
+        padding: 10px 0 20px;
+    }
+
+    .mh-about-img .about-profile-img {
+        width: 55%;
+        max-width: 230px;
+    }
+
+} */
+
+
+/* =========================================
+   SMALL ANDROID
+========================================= */
+
+@media (max-width: 375px) and (max-width: 480px){
+    .mh-about-img img {
+        width: 45%;
+        max-width: 230px;
+    }
+}
+
+
+/* HP ekstra kecil */
+@media (max-width: 320px) {
+    .mh-about-img img {
+        width: 45%;
+        margin: 0 auto;
+    }
 }
 /*# sourceMappingURL=styles.css.map */
